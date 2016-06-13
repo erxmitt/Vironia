@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>BRZ Build Thread</title>
+	</head>
+	<body>
+		<h1>Welcome to my BRZ build thread!</h1><hr />
+		<form action="http://www.example.com/subscribe.php" method="get">
+			<button><img src="images/buttons/Estonia.gif" alt="Estonian" width="70" height="60"/><br/>Eesti</button> <!-- This allows you to combine images with text inside of buttons. -->
+			<button><img src="images/buttons/USA.gif" alt="English" width="70" height="60"/><br />English</button>
+			<input type="hidden" name="bookmark" value="BRZ-build"/> <!-- This is a way to keep track of which page the form info is coming from. -->
+		</form>
+		<h2>Links</h2>
+		<ul>
+			<li><a href="index.html#header6">Home</a></li><!--This links to the location of "header6" ID tag on the home page-->
+			<li><a href="weapons/ar15-build.html">AR-15 Build Thread</a></li><br />
+			<li><a href="http://www.google.com" target="_blank">Google Search</a></li>
+			<li><a href="http://www.ft86club.com/forums/index.php" target="_blank">FT86 Club Forum</a></li>		
+		</ul><hr />
+		<h2 id="upgrades">BRZ Upgrades</h2>
+		<table width="400" cellpadding="10" cellspacing"5" border="2" bgcolor="#efefef">
+		<!-- Table width, spacing, border, padding, and background used to be handled in HTML, but are now handled by CSS. -->
+			<tr>
+				<th scope="col" width="150">Upgrade</th><!--Header cells-->
+				<th scope="col">Cost</th>
+				<th scope="col">Total Cost</th>
+			</tr>
+			<tr>
+				<td>Wheels</td><!--Table Data value-->
+				<td>$1600-1800</td>
+				<td rowspan="2">$2100-2600</td><!--The "rowspan" and "colspan" attributes can be used to extend any cell across rows and columns.-->
+			</tr>
+			<tr>
+				<td>Tires</td>
+				<td>$500-800</td>
+			</tr>
+		</table><hr />
+		
+		<table><!-- Same table in a slightly different manner-->
+			<thead><!-- Using the "thead", "tbody", and "tfoot" allows browsers to keep headers and footers visible when a table is longer than a single page. -->
+				<tr>
+					<th>Upgrade</th>
+					<th>Item Cost</th>
+					<th>Priority(1-5)</th>
+					<th>Upgrade Type</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tires</td>
+					<td>$500-800</td>
+					<td>3</td>
+					<td>Drive-ability</td>
+				</tr>
+				<tr>
+					<td>Wheels</td>
+					<td>$1200-$2000</td>
+					<td>2</td>
+					<td>Visual/Weight Saving</td>
+				</tr>
+				<tr>
+					<td>Exhaust</td>
+					<td>$350-1000</td>
+					<td>3</td>
+					<td>Performance/Aesthetic</td>
+				</tr>	
+			</tbody>
+			<tfoot>
+				<tr>
+					<!-- <td></td> -->
+					<td>3</td>
+					<td>$2050-3800</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			</tfoot>	
+		</table>
+	</body>
+
+
+
+</html>
