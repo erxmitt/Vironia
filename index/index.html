@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>First Web Page</title>
+	</head>
+	<body>
+			<h1 id = "top">Welcome to my First Web Page!</h1><hr />
+			<!-- Using "id" attributes is useful for CSS and JavaScript styling and interaction capabilities later on! -->	
+			<form action="http://www.example.com/subscribe.php" method="get">
+				<button><img src="images/buttons/Estonia.gif" alt="Estonian" width="70" height="60"/><br/>Eesti</button> <!-- This allows you to combine images with text inside of buttons. -->
+				<button><img src="images/buttons/USA.gif" alt="English" width="70" height="60"/><br />English</button>
+				<input type="hidden" name="bookmark" value="Home"/> <!-- This is a way to keep track of which page the form info is coming from. -->
+			</form>
+			<h2>Links</h2><!--This is an un-ordered list of local and web links!-->
+			<ul>
+				<li><a href="index.html">Home</a></li> <!--By default all directories and sub-directories should contain a homepage named "index.html". -->
+				<li><a href="BRZ-build.html">BRZ Build Thread</a></li>
+				<li><a href="weapons/ar15-build.html">AR-15 Build Thread</a></li><br /><!--The folder paths and filenames in "href=" are not case-sensitive.-->
+				<li><a href="http://www.google.com" target = "_blank">Google Search</a></li> <!--This opens the link in a new window.-->
+				<li><a href="http://www.ft86club.com/forums/index.php" target = "_blank">FT86 Club Forum</a></li>
+			</ul><hr />
+			<h2>Level 2 Header!</h2>
+			<h3>Level 3 Header!</h3>
+			<h4>Level 4 Header!</h4>
+			<h5>Level 5 Header!</h5>
+			<h6 id="header6">Level 6 Header!</h6><hr />
+			<p>This is an HTML page <br />I created in <b><i>Notepad++</i></b></p>
+			<p>May 18<sup>th</sup> on CO<sub>2</sub>, as I <em>always</em> say <strong><q>That's the way the cookie crumbles!</q></strong></p>
+			<p>And they always respond <q><acronym title="Laugh out loud">LOL</acronym></q>!</p><hr />
+			<p>The <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+			<p>It was the <del>worst</del> <ins>best</ins> idea she had ever had!</p>
+			<p>In general it is best practice to use JPEG images for complex photos, and PNG/GIF images for images with consistent backgrounds and logos, simple images.</p>
+
+			<h2> BRZ Color Preferences</h2>
+			<ol><!--Image sizes are specified in CSS these days, to help keep things uniform throughout the sites.  Width and Height HTML attributes are being phased out.-->
+			<!--Before HTML5 it was common to use the "align" attribute to align paragraph text around images both horizontally and vertically. Now this is done in CSS on the server side instead"-->
+				<li>Galaxy Blue Silicate</li>
+				<figure>
+					<img src="images/cars/gBS-BRZ.jpg" alt="A poor representation of the actual color" title="Galaxy Blue Silica" width="386" height="187" /><br /><!--"src=" is not case sensitive, but spelling must be exact including extension.-->
+					<figcaption>Galaxy Blue Silicate BRZ color was discontinued after 2013 Model Year</figcaption>
+				</figure>
+				<!--The "figure" attribute is new to HTML5 and allows adding captions to images within it.-->
+				<li>Sterling Silver Metallic</li><img src="images/cars/ssm-BRZ.jpg" alt="A poor representation of the actual color" title="Sterling Silver Metallic" width="386" height="220" />
+				<li>Lightning Red</li><img src="images/cars/lrm-BRZ.jpg" alt="A poor representation of the actual color" title="Lightning Red" width="400" height="250" />
+				<li>World Rally Blue </li><img src="images/cars/wrb-BRZ.jpg" alt="A poor representation of the actual color" title="World Rally Blue" width="420" height="265" />
+				<li>Dark Gray Metallic</li><img src="images/cars/dgm-BRZ.jpg" alt="A poor representation of the actual color" title="Dark Gray Metallic" width="375" height="270" />
+				<li>Satin White Pearl</li><img src="images/cars/swp-BRZ.jpg" alt="A poor representation of the actual color" title="Satin White Pearl" width="386" height="187" />
+			</ol> <!--NOTE: Saving images in the exact length-by-width size(in pixels) and image format will speed up loading and ensure that no images are out of scale or stretched."-->
+			<ul>
+				<li>Unordered</li>
+				<li>Lists</li>
+				<ul>
+					<li>These can be</li>
+					<li>nested lists.</li>
+				</ul>
+			</ul>
+			<dl id = "bottom">
+				<dt>Shashimi</dt>
+				<dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce.</dd>
+			</dl>
+			<h3>List of stock photo sites for using on websites:</h3>
+			<ul id="photos">
+				<li><a href="http://www.istockphoto.com">www.istockphoto.com</a></li>
+				<li><a href="http://www.gettyimages.com">www.gettyimages.com</a></li>
+				<li><a href="http://www.veer.com">www.veer.com</a></li>
+				<li><a href="http://www.sxc.hu">www.sxc.hu</a></li>
+				<li><a href="http://www.fotolia.com">www.fotolia.com</a></li>
+			</ul>
+			
+			
+			<p><a href="#top"><b>Back to the Top.</b></a></p>
+			<address>
+				<p><a href="mailto:emitt2@ncsu.edu"> Email me!</a></p> <!--E-mail links are constructed like this. -->
+			</address>
+	</body>
+</html>
