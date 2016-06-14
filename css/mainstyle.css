@@ -57,7 +57,6 @@ body {
 	color: white;
 	font-style: bold;
 	font-family: Arial;
-	display: inline-block;
 	vertical-align: center;
 }
 .buttons {
@@ -72,4 +71,7 @@ body {
 
 .menuButton {
 	height:100%;
+	margin: 5px;
+	float: left;
+	vertical-align: center;
 }
