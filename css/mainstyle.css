@@ -65,11 +65,12 @@ body {
 	height: auto;
 	/*margin: 2px;*/
 	margin: 0,auto;
-	/*padding: 2px;*/
+	padding: 2px;
 }
 
 .menu li {
 	padding: 10px;
+	margin: 0, auto;
 	float: left;
 	height:auto;
 	border-left: dashed 1px white;
