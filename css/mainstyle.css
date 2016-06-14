@@ -63,12 +63,12 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	height: auto;
-	margin: 2px;
-	padding: 5px;
+	/*margin: 2px;*/
+	padding: 2px;
 }
 
 .menu li {
-	/*padding: 10px;*/
+	padding: 10px;
 	float: left;
 	height:100%;
 	border-left: dashed 1px white;
