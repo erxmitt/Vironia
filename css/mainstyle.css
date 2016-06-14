@@ -7,18 +7,18 @@
 html{
 	font-size: 16px;
 	height: 100%;
+	margin:0;
+	padding:0;
 }
 
 body {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	padding:0;
-	margin:0;
 	background: white; /* For browsers that do not support gradients */
 }
 
-.header, .footer , .content{
+.header, .content{
 	max-width: 60%;
 	width: 50%;
 	margin: 0 auto;
@@ -43,11 +43,12 @@ body {
 .footer {
 	position: fixed;
 	bottom: 20px;
+	width: 100%;
 	/*left: 0;*/
 	height: 50px;
 	text-align: center;
 	color: white;
-	font-size: 14px;
+	font-size: 12px;
 	background: #5a0c5a;
 }
 
