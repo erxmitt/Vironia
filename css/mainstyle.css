@@ -38,6 +38,7 @@ body {
 	padding-top:10px;
 	padding-bottom: 10px;
 	border: solid 1px black;
+	height: auto;
 }
 
 .footer {
@@ -57,10 +58,14 @@ body {
 	text-align:center;
 	text-decoration:none;
 	padding: 10px;
-	height: 100%;
+	height: auto;
 }
 
-.footer a:hover{
+.footer div {
+	height:auto;
+}
+
+.footer div:hover{
 	background-color:white;
 	color:black;
 }
