@@ -70,7 +70,7 @@ body {
 
 .menu li {
 	padding: 10px;
-	/*float: left;*/
+	float: left;
 	height:auto;
 	border-left: dashed 1px white;
 	border-right: dashed 1px white;
