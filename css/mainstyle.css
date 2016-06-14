@@ -71,6 +71,8 @@ body {
 	padding: 10px;
 	float: left;
 	height:100%;
+	border-left: dashed 1px white;
+	border-right: dashed 1px white;
 }
 
 .menu li a {
