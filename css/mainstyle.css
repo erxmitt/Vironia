@@ -52,14 +52,17 @@ body {
 }
 
 .menu {
-	max-width: 60%;
-	width: 50%;
+	width: 100%;
 	font-size: 20px;
 	color: white;
 	font-style: bold;
 	font-family: Arial;
 	display: inline-block;
 	vertical-align: center;
+}
+.buttons {
+	width: 60%;
+
 }
 
 .header img {
