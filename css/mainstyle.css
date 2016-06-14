@@ -6,9 +6,11 @@
 
 html{
 	font-size: 16px;
+	height: 100%;
 }
 
 body {
+	height: 100%;
 	text-align: center;
 	padding:0;
 	margin:0;
@@ -20,16 +22,24 @@ body {
 }
 
 .header, .footer , .content{
-	max-width: 80%;
+	max-width: 60%;
 	margin: 0 auto;
 }
 .header{
-
+	height: 200px;
 }
 .footer {
-
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	
 }
 
 .content{
 
+}
+
+.footer img {
+	float: left;
 }
