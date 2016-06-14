@@ -72,11 +72,8 @@ body {
 	float: left;
 }
 
-.menu li a {
-	text-decoration: none;
-}
 .menu li a:hover {
-	background-color:#5a0c5a;
+	/*background-color:#5a0c5a;*/
 }
 
 .header img {
