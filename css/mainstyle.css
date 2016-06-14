@@ -29,10 +29,10 @@ body {
 	padding-bottom: 10px;
 }
 
-.divider{
+.menu{
 	background: #333333;
 	width: 100%;
-	height: 30px;
+	height: 50px;
 }
 
 .content{
@@ -50,6 +50,15 @@ body {
 	color: white;
 	font-size: 12px;
 	background: #5a0c5a;
+}
+
+.menu nav {
+	max-width: 60%;
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	font-style: bold;
+	font-family: Arial;
 }
 
 .header img {
