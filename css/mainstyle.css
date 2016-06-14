@@ -14,16 +14,16 @@ body {
 	text-align: center;
 	padding:0;
 	margin:0;
-	background: violet; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, violet, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, violet, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, violet, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, violet, white); /* Standard syntax */
+	background: #9d159d; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #9d159d, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #9d159d, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #9d159d, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #9d159d, white); /* Standard syntax */
 }
 
 .header, .footer , .content{
 	max-width: 60%;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 }
 .header{
@@ -35,6 +35,7 @@ body {
 	bottom: 0;
 	left: 0;
 	height: 50px;
+	text-align: center;
 }
 
 .content{
