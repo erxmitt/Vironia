@@ -66,6 +66,7 @@ body {
 	/*margin: 2px;*/
 	margin: 0 auto;
 	padding: 2px;
+	line-height: 100%;
 }
 
 .menu li {
