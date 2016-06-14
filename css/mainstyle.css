@@ -50,6 +50,13 @@ body {
 	background: #5a0c5a;
 }
 
+.footer a{
+	display: inline-block;
+	color: white;
+	text-align:center;
+	text-decoration:none;
+}
+
 .menu {
 	width: 100%;
 	font-size: 18px;
