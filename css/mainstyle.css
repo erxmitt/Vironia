@@ -11,14 +11,11 @@ html{
 
 body {
 	height: 100%;
+	width: 100%;
 	text-align: center;
 	padding:0;
 	margin:0;
-	background: #9d159d; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #9d159d, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #9d159d, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #9d159d, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #9d159d, white); /* Standard syntax */
+	background: white; /* For browsers that do not support gradients */
 }
 
 .header, .footer , .content{
@@ -28,18 +25,25 @@ body {
 }
 .header{
 	height: 200px;
+	padding-top: 30px;
+}
+
+.divider{
+	background: #333333;
+	width: 100%;
+	height: 50px;
+}
+
+.content{
+
 }
 
 .footer {
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	/*left: 0;*/
 	height: 50px;
 	text-align: center;
-}
-
-.content{
-
 }
 
 .header img {
