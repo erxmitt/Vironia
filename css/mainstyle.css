@@ -23,23 +23,24 @@ body {
 
 .header, .footer , .content{
 	max-width: 60%;
+	width: 60%;
 	margin: 0 auto;
 }
 .header{
 	height: 200px;
 }
+
 .footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	height: 50px;
-	
 }
 
 .content{
 
 }
 
-.footer img {
+.header img {
 	float: left;
 }
