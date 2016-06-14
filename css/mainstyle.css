@@ -70,6 +70,7 @@ body {
 .menu li {
 	padding: 10px;
 	float: left;
+	height:100%;
 }
 
 .menu li a {
@@ -79,7 +80,7 @@ body {
 	text-decoration:none;
 }
 
-.menu li a:hover {
+.menu li:hover {
 	background-color:#5a0c5a;
 }
 
