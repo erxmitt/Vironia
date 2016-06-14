@@ -57,11 +57,19 @@ body {
 	color: white;
 	font-style: bold;
 	font-family: Arial;
-	vertical-align: middle;
+	text-align: center;
 }
-.buttons {
-	width: 60%;
+.menu ul {
+	list-style-type: none;
+	overflow: hidden;
+	height: auto;
+	margin: 2px;
+	padding: 5px;
+}
 
+.menu li {
+	padding: 10px;
+	float: left;
 }
 
 .header img {
@@ -69,9 +77,3 @@ body {
 	padding-bottom:10px;
 }
 
-.menuButton {
-	height:100%;
-	margin: 5px;
-	float: left;
-	vertical-align: middle;
-}
